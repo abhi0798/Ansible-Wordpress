@@ -1,0 +1,8 @@
+- hosts: lamp
+  become: yes
+  roles:
+  - python
+  - nginx
+  - mysql
+  - php
+  - wordpress
