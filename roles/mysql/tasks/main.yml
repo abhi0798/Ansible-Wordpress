@@ -10,9 +10,9 @@
     state: present
     update-cache: yes
 
-- name: waiting for 15 sec......
+- name: waiting for 10 sec......
   pause:
-    seconds: 15
+    seconds: 10
 
 - name: creating database user
   mysql_user:
