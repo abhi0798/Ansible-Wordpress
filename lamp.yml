@@ -1,4 +1,4 @@
-- hosts: lamp
+- hosts: all
   become: yes
   roles:
   - python
