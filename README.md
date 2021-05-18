@@ -4,5 +4,5 @@
 
 - Run following command :
 ```
- ansible-playbook -i hosts --private-key <KEY_LOCATION> lamp.yml
+ ansible-playbook -i hosts --private-key <PRIVATE_KEY_LOCATION> lamp.yml
  ```
